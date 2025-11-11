@@ -1,7 +1,7 @@
 ````markdown
 #  Semgrep + LLM Security Analyzer (Ollama Edition)
 
-This project connects **Semgrep** static analysis findings to a **local Large Language Model (LLM)** via **Ollama**, so you can triage and remediate vulnerabilities **without sending code to external APIs**.
+This project connects Semgrep static analysis findings to a **local Large Language Model (LLM)** via **Ollama**, so you can triage and remediate vulnerabilities **without sending code to external APIs**.
 
 It supports multiple stacks via a simple CLI flag:
 
