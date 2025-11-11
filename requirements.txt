@@ -1,0 +1,7 @@
+# Core for LLM integration
+requests>=2.31.0
+jsonschema>=4.22.0
+markdownify>=0.11.6
+
+# (Not strictly required, but keeps Semgrep version pinned if you use Python instead of brew)
+# semgrep>=1.90.0
