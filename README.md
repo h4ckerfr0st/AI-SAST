@@ -14,10 +14,11 @@ It supports multiple stacks via a simple CLI flag:
 - `node`  → Node.js / npm
 - `python` → Python 3 / pip
 
+If needed the repository that can be used as an example is DVWA https://github.com/digininja/DVWA
+
 The core logic lives in:  
 
 `LLM/llm_analysis.py`
-
 Semgrep produces JSON findings, and the script sends each finding (plus code context) to a local LLM. The LLM responds with:
 
 - `classification` → TRUE_POSITIVE / FALSE_POSITIVE  
